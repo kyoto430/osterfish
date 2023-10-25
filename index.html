@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/styles.css">
+  <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+  <script src="./assets/js/index.js" defer></script>
+  <script src="./assets/js/swiper-bundle.min.js" defer></script>
+  <script src="./assets/js/slider.js" defer></script>
+  <title>Астраханские деликатесы</title>
+</head>
+
+<body>
+  <header class="header container-xl">
+    <div class="header__container container">
+      <div class="header__logo-container">
+        <a class="header__logo" href="#main">
+          <img class="header__logo-img" src="./assets/images/logo.svg" alt="Логотип oster fish">
+        </a>
+        <div class="overlay"></div>
+        <div class="menu__burger">
+          <span></span>
+        </div>
+      </div>
+      <h1 class="header__title">Астраханские <span>деликатесы</span></h1>
+      <p class="header__subtitle">Тут можно купить рыбу</p>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="menu__item">
+            <a class="menu__link link" href="#about">О нас</a>
+            <img src="./assets/images/header-block/01.png" alt="fish 1">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#catalog">Каталог</a>
+            <img src="./assets/images/header-block/02.png" alt="fish 2">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">Главная</a>
+            <img src="./assets/images/header-block/03.png" alt="fish 3">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#contacts">Контакты</a>
+            <img src="./assets/images/header-block/04.png" alt="fish 4">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#calls">Отзывы</a>
+            <img src="./assets/images/header-block/05.png" alt="fish 5">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link popup-link" href="#popup-docs">Документы</a>
+            <img src="./assets/images/header-block/06.png" alt="fish 6">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#pay">Правила оплаты</a>
+            <img src="./assets/images/header-block/07.png" alt="fish 7">
+          </li>
+          <li class="menu__item">
+            <a class="menu__link link" href="#">FAQ</a>
+            <img src="./assets/images/header-block/08.png" alt="fish 8">
+          </li>
+        </ul>
+      </nav>
+      <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+    </div>
+  </header>
+  <main class="main">
+    <div class="bg__wrapper">
+      <img class="bg__img" src="./assets/images/backgrounds/bg-1.png" alt="bg" />
+      <section class="catalog container-xl" id="catalog">
+        <div class="container">
+          <div class="catalog__inner">
+            <h2 class="title">Каталог</h2>
+            <div class="about__slider swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="about__slider-wrapper">
+                    <div class="catalog__card">
+                      <img src="./assets/images/catalog-block/catalog-01.jpg" alt="fish 1">
+                      <p class="catalog__text">Осетр горячего <br> копчения</p>
+                      <p class="catalog__price">2500&#8381;</p>
+                      <a class="btn btn-link popup-link" href="#popup-form">Добавить в корзину</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="catalog__card">
+                    <img src="./assets/images/catalog-block/catalog-02.jpg" alt="fish 2">
+                    <p class="catalog__text">Стерлядь холодного <br> копчения</p>
+                    <p class="catalog__price">2000&#8381;</p>
+                    <a class="btn btn-link popup-link" href="#popup-form">Добавить в корзину</a>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="catalog__card">
+                    <img src="./assets/images/catalog-block/catalog-03.jpg" alt="fish 3">
+                    <p class="catalog__text">Балык вяленый <br> осетровый</p>
+                    <p class="catalog__price">4000&#8381;</p>
+                    <a class="btn btn-link popup-link" href="#popup-form">Добавить в корзину</a>
+                  </div>
+                </div>
+              </div>
+              <div class="about__slider-nav">
+                <div class="slider__btn-prev"></div>
+                <div class="slider__btn-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about container-xl" id="about">
+        <div class="container">
+          <h2 class="title">О нашей ферме</h2>
+          <div class="about__inner">
+            <div class="about__top">
+              <img class="about__img" src="./assets/images/about-block/about-01.jpg" alt="image 1">
+              <p class="about__text">Мы акваферма осетр фиш.
+                Основанная в 2020 году. Осетр фиш это не просто акваферма. Мы Астраханцы, наши отцы и деды ещё из давно
+                связанны с рыбой и мы не по наслышке знаем, что такое настоящая осетрина.Мы знаем подход к этому делу.
+                Раньше наши предки вылавливали рыбу из волги, так как её было очень много.</p>
+            </div>
+            <div class="about__bottom">
+              <img class="about__img" src="./assets/images/about-block/about-02.jpg" alt="image 2">
+              <div class="about__text-wrapper">
+                <p class="about__text">Сейчас же мы продолжаем историю наших отцов и дедов, но уже с но уже с новыми
+                  технологиями и с осознанным подходом к защите природы Поэтому наша акваферма это настоящее
+                  наше отражение, продолжая дело предков, не принося вреда для окружающей среды.</p>
+                <p class="about__text">Наша миссия, дать людям насладиться настоящими деликатесами осетровых и получить
+                  положительные эмоции от нашей продукции, и знать что они тем самым помогают сохранить дикую популяцию
+                  осетровых, делая выбор в пользу Аквакультуры, мы хотим показать что даже одно правильное решение
+                  делает
+                  этот мир лучше.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="calls container-xl" id="calls">
+      <div class="container">
+        <h2 class="title">Отзывы</h2>
+        <div class="calls__slider swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
+            </div>
+            <div class="swiper-slide">
+              <img class="call__img" src="./assets/images/calls-block/call-02.jpg" alt="call 2">
+            </div>
+            <div class="swiper-slide">
+              <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
+            </div>
+          </div>
+          <div class="about__slider-nav">
+            <div class="slider__btn-prev"></div>
+            <div class="slider__btn-next"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="approach container-xl" id="approach">
+      <div class="container">
+        <div class="approach__inner">
+          <h2 class="title">Наш подход</h2>
+          <div class="video">
+            <iframe class="video__content" width="100%" height="100%"
+              src="https://www.youtube.com/embed/2tO93kJY00I?si=LAiT2CKBW-1HmzZo" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="delivery container-xl" id="delivery">
+      <div class="container">
+        <h2 class="title">Доставка по всей россии</h2>
+        <div class="delivery__inner">
+          <div class="delivery__description">
+            <p class="delivery__text">
+              Доставка осетровой рыбы от фермы по России осуществляется различными способами в зависимости от
+              требований
+              и пожеланий заказчика.
+              <br><br>
+              Основные методы доставки включают следующие:
+              <br><br>
+              1. Автомобильная доставка – осетровая рыба упаковывается в специальные контейнеры, снабженные системами
+              поддержания заданной температуры и влажности. Затем контейнеры доставляются на автомобилях, обеспечивая
+              сохранность продукции. Этот способ позволяет доставить рыбу в любую точку России.
+              <br><br>
+              2. Железнодорожная доставка – для более удаленных регионов России используется железнодорожный
+              транспорт.
+              Осетровая рыба упаковывается в специальные рефрижераторные вагоны, обеспечивающие сохранность и свежесть
+              продукта в течение всего пути. Этот способ доставки позволяет доставить рыбу на значительные
+              расстояния....
+            </p>
+            <a class="btn btn-link popup-link" href="#popup-delivery">Подробнее</a>
+          </div>
+          <img class="pay__img" src="./assets/images/delivery-block/delivery-img.png" alt="fish">
+        </div>
+      </div>
+    </section>
+    <section class="stages container-xl" id="stages">
+      <div class="container">
+        <h2 class="title">Этапы работы</h2>
+        <div class="stages__list">
+          <picture>
+            <source media="(max-width: 768px)" srcset="./assets/images/backgrounds/line-2.png">
+            <img class="stages__line" src="./assets/images/backgrounds/line.png" alt="line">
+          </picture>
+          <div class="stages__item">
+            <p class="stages__number">1</p>
+            <p class="stages__text">Выбираете рыбу</p>
+          </div>
+          <div class="stages__item">
+            <p class="stages__number">2</p>
+            <p class="stages__text">Оформляете заказ</p>
+          </div>
+          <div class="stages__item">
+            <p class="stages__number">3</p>
+            <p class="stages__text">Оплачиваете за товар</p>
+          </div>
+          <div class="stages__item">
+            <p class="stages__number">4</p>
+            <p class="stages__text">Доставка <br> СДЭК <br> или Почтой <br> России</p>
+          </div>
+          <div class="stages__item">
+            <p class="stages__number">5</p>
+            <p class="stages__text">Получаете <br> свой заказ</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages container-xl" id="advantages">
+      <div class="container">
+        <div class="advantages__inner">
+          <h2 class="title">Наши преимущества</h2>
+          <div class="advantages__list">
+            <div class="advantages__item">
+              <img class="advantages__item-img" src="./assets/images/icons/icon-pice.svg" alt="icon pice">
+              <p class="advantages__item-text">Натуральная и экологичная рыба</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-img" src="./assets/images/icons/icon-ribbon.svg" alt="icon ribbon">
+              <p class="advantages__item-text">Высокое <br> качество</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-img" src="./assets/images/icons/icon-fish.svg" alt="icon fish">
+              <p class="advantages__item-text">Только самая свежая продукция</p>
+            </div>
+            <div class="advantages__item">
+              <img class="advantages__item-img" src="./assets/images/icons/icon-price.svg" alt="icon price">
+              <p class="advantages__item-text">Выгодная <br> цена</p>
+            </div>
+          </div>
+          <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+        </div>
+      </div>
+    </section>
+    <section class="pay container-xl" id="pay">
+      <div class="container">
+        <div class="pay__inner">
+          <div class="pay__wrapper">
+            <h2 class="title">Правило оплаты</h2>
+            <div class="pay__description">
+              <p class="pay__text">Основная форма оплаты за продукцию - это выплата по договору. Также мы
+                предоставляем
+                возможность платить через банковские карты или электронные кошельки. Если
+                у вас возникнут какие-либо вопросы относительно оплаты, не стесняйтесь обращаться к нам! Мы всегда
+                готовы
+                помочь.</p>
+              <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+            </div>
+          </div>
+          <img class="pay__img" src="./assets/images/pay-block/pay-img.png" alt="fish">
+        </div>
+      </div>
+    </section>
+    <section class="answers container-xl" id="answers">
+      <div class="container">
+        <h2 class="title">Ответы на часто <br> задаваемые вопросы</h2>
+        <div class="accordeon">
+          <div class="accordeon__li">
+            <input id="accord-1" type="checkbox" name="accord">
+            <label class="accordeon__btn" for="accord-1">
+              1. За какое время заранее надо делать заказ на нужную дату?
+            </label>
+            <div class="accordeon__toggle">
+              <div class="accordeon__toggle-inner">
+                <p class="accordeon__text">Заказы вы можете оформить на сайте, или в удобных для вас мессенджерах, на
+                  удобную вам дату, мы не держим в запасах много готовой продукции, для того что бы готовить всегда из
+                  свежей рыбы, так продукт будет всегда радовать покупателей. Обычно мы заранее принимаем заказ для
+                  того
+                  что бы рыба успела пройти определенный этап отчистки, об этом так же есть подробное видео на нашем
+                  ютуб канале. Свежую рыбу за день до отправки. Мы помещаем под проточную воду давая рыбе время для
+                  отчистки всего пищевого тракта, а только затем мы отправляем нашим покупателям, а что касается
+                  копчения то средний срок до отправки 2-3 дня до нужной вам даты. Приятных покупок!</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordeon__li">
+            <input id="accord-2" type="checkbox" name="accord">
+            <label class="accordeon__btn" for="accord-2">
+              2. Чем отличается рыба в бассейнах от садков?
+            </label>
+            <div class="accordeon__toggle">
+              <div class="accordeon__toggle-inner">
+                <p class="accordeon__text">У нас на ютуб канале есть полное видео, но тут мы тоже про это обязательно
+                  упомянем. Рыба без воды не может существовать. Как человек без воздуха, и чем чище воздух тем мы
+                  чувствуем себя лучше, так же и рыба чем чище вода и обогащена кислородом тем она здоровее и вкуснее.
+                  У
+                  нас на ферме вода проходит 3 ступени отчистки, механическая отчистка, биологическая отчистка, и
+                  отчистка по средством озонирования, таким образом вода в которой растут наши осетры имеет высшую
+                  степень экологичности.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordeon__li">
+            <input id="accord-3" type="checkbox" name="accord">
+            <label class="accordeon__btn" for="accord-3">
+              3. А сколько идет доставка?
+            </label>
+            <div class="accordeon__toggle">
+              <div class="accordeon__toggle-inner">
+                <p class="accordeon__text">Доставка в Москва южное Поволжье, 1 рабочий день, Архангельск,Екатеринбург
+                  3
+                  рабочих дня, но точную дату доставки мы можем расчитывать после получения адреса доставки, мы
+                  работаем
+                  с Авио экспресс доставками, скорость и надежность посылки мы гарантируем.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts container-xl" id="contacts">
+      <div class="contacts__container">
+        <h2 class="title">Контакты</h2>
+        <div class="contacts__inner">
+          <div class="contacts__wrapper">
+            <address class="address">
+              <p class="contacts__address">Московская обл., Пушкинский р-н, Ярославское шоссе, деревня Костино</p>
+              <a class="contacts__tel" href="tel:+7899646942">+7899646942</a>
+              <a class="contacts__mail" href="mailto:osetor@gmail.com">osetor@gmail.com</a>
+              <div class="contacts__social">
+                <a class="social__link" href="#">
+                  <img class="social__img" src="./assets/images/icons/icon-youtube.svg" alt="icon youtube">
+                </a>
+                <a class="social__link" href="#">
+                  <img class="social__img" src="./assets/images/icons/icon-vk.svg" alt="icon vk">
+                </a>
+                <a class="social__link" href="#">
+                  <img class="social__img" src="./assets/images/icons/icon-insta.svg" alt="icon instagram">
+                </a>
+                <a class="social__link" href="#">
+                  <img class="social__img" src="./assets/images/icons/icon-telegram.svg" alt="icon telegram">
+                </a>
+                <a class="social__link" href="#">
+                  <img class="social__img" src="./assets/images/icons/icon-ok.svg" alt="icon ok">
+                </a>
+              </div>
+            </address>
+            <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+          </div>
+          <div class="contacts__badge">
+            <p class="contacts__text">Мы позаботились, чтобы вам было удобно, и поэтому вы можете сделать ваш вкусный
+              заказ в любых мессенджерах, а если вы хотели бы лично поговорить с нами, то мы оставляем контактный
+              телефон</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer container-xl">
+    <div class="footer__container">
+      <div class="footer__inner">
+        <div class="footer__left">
+          <img src="./assets/images/logo-white.svg" alt="Логотип oster fish">
+          <div class="footer__social">
+            <a class="social__link" href="#">
+              <img class="social__img" src="./assets/images/icons/icon-youtube.svg" alt="icon youtube">
+            </a>
+            <a class="social__link" href="#">
+              <img class="social__img" src="./assets/images/icons/icon-vk.svg" alt="icon vk">
+            </a>
+            <a class="social__link" href="#">
+              <img class="social__img" src="./assets/images/icons/icon-insta.svg" alt="icon instagram">
+            </a>
+            <a class="social__link" href="#">
+              <img class="social__img" src="./assets/images/icons/icon-telegram.svg" alt="icon telegram">
+            </a>
+            <a class="social__link" href="#">
+              <img class="social__img" src="./assets/images/icons/icon-ok.svg" alt="icon ok">
+            </a>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__column">
+            <p class="footer__title">Главное</p>
+            <ul class="footer__menu">
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#about">О нас</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#catalog">Каталог</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#delivery">Доставка</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#contacts">Контакты</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link" href="#calls">Отзывы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link popup-link" href="#popup-docs">Документы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a class="footer__menu-link popup-link" href="#popup-privacy">Политика <br> конфиденциальности</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column-wrapper">
+            <div class="footer__column">
+              <p class="footer__title">Помощь</p>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link popup-link" href="#popup-form">Правило оплаты</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer__column">
+              <p class="footer__title">Контакты</p>
+              <ul class="footer__menu">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="tel:+7899646942">+7899646942</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="mailto:osetor@gmail.com">osetor@gmail.com</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="footer__copyright">Все права защищены.</p>
+    </div>
+  </footer>
+
+  <!-- POPUPS -->
+  <div id="popup-docs" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup"></a>
+        <img class="popup__docs-img" src="./assets/images/documents.jpg" alt="docs">
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-privacy" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup"></a>
+        <div class="privacy__inner">
+          <div class="privacy__wrapper">
+            <h2 class="privacy__title">Политика конфиденциальности</h2>
+            <div class="privacy__description">
+              <p>Данная Политика используется и применима исключительно к Персональным данным, получаемым от
+                Пользователя
+                в связи с использованием им Сайта. Положения данной Политики направлены на:
+              </p>
+              <ol>
+                <li>определение видов и типов получаемых Персональных данных, направлений и целей использования
+                  (обработки) Персональных данных, а также источников получения таких Персональных данных; и</li>
+                <li>определение прав Пользователя в отношении защиты конфиденциальности передаваемых им Персональных
+                  данных; и</li>
+                <li>определение лиц, ответственных за обработку и хранение Персональных данных, а также третьих лиц,
+                  которым такие данные раскрываются (полностью или частично).</li>
+              </ol>
+              <p>Правила настоящей Политики не применяются в случае обработки третьими лицами Персональных данных,
+                которые
+                добровольно предоставляются Пользователем.</p>
+              <p>Посредством использования Сайта Пользователь соглашается с условиями данной Политики и дает свое
+                согласие
+                Правообладателю на сбор, обработку, удержание и хранение Персональных данных в порядке и на условиях,
+                предусмотренных настоящей Политикой.</p>
+              <p>Если Пользователь не согласен с условиями Политики и/или отдельные условия Политики ему не понятны, в
+                таком случае Пользователь обязан немедленно прекратить использование Сайта.</p>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h3 class="privacy__subtitle">Права пользователя по защите персональных данных</h3>
+            <div class="privacy__description">
+              <p>В связи с предоставлением Персональных данных Пользователь автоматически получает следующие права:
+              </p>
+              <ol>
+                <li>получать данные, касающиеся их обработки (основания и цели такой обработки, применяемые способы
+                  обработки, сведения о лицах, которые имеют доступ к ним или которым они могут быть раскрыты на
+                  основании договора или Закона)</li>
+                <li>получать данные о месте нахождения и идентификационных данных лиц, совершающих обработку
+                  Персональных данных.</li>
+                <li>получать данные о сроках хранения Персональных данных.</li>
+                <li>получать данные об осуществленной или о предполагаемой трансграничной передаче Персональных данных.
+                </li>
+                <li>обжаловать действия или бездействие Правообладателя в уполномоченный орган по защите прав субъектов
+                  персональных данных или в судебном порядке.</li>
+                <li>получать возмещение убытков и/или компенсацию морального вреда в судебном порядке в следствие
+                  допущенных Правообладателем и/или третьими лицами нарушений прав Пользователя на охрану и защиту его
+                  Персональных данных.</li>
+                <li>реализовывать иные права в области защиты персональных данных, предусмотренные Законом или
+                  положениями данной Политики.</li>
+              </ol>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h2 class="privacy__title">Пепечень собираемых персональных данных</h2>
+            <h3 class="privacy__subtitle">Неперсонифицированная информация о пользователях</h3>
+            <div class="privacy__description">
+              <p>В связи с использованием Сайта Правообладатель может автоматически собирать и обрабатывать следующею
+                неперсонифицированную информацию о Пользователе:
+              </p>
+              <ol>
+                <li>информацию о трафике, возможном количестве совершенных кликов, логи и другие данные.</li>
+                <li> информацию об устройстве (идентификационный номер устройства, с которого выполняется вход,
+                  операционная система, платформа, тип браузера и другая информация о браузере, IP адрес).</li>
+              </ol>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h3 class="privacy__subtitle">Личные данные о пользователях</h3>
+            <div class="privacy__description">
+              <p>Пользователь предоставляет Правообладателю о себе следующие личные данные:
+              </p>
+              <ol>
+                <li>номер мобильного телефона.</li>
+                <li>данные из следующей социальной сети: Vkontakte. Правообладатель может собирать, обрабатывать и
+                  хранить ID Пользователя любой из социальных сетей, которая была использована Пользователем при
+                  регистрации и/или входе на Сайт. Если регистрация Пользователя на Сайте осуществляется с помощью
+                  одного из его аккаунтов в социальных 4/11 сетях, Пользователь тем самым предоставляет Правообладателю
+                  автоматическое согласие на сбор, обработку и хранение Персональных данных, которые стали доступны
+                  Правообладателю через выбранную социальную сеть.</li>
+                <li>данные о совершенных Пользователям заказах и/или полученных/оплаченных услугах через Сайт.</li>
+                <li> данные и информация, получаемая в результате объединения тех или иных Персональных данных
+                  конкретного Пользователя, а также данные и информация, получаемые данные о Пользователе, получаемые от
+                  третьих лиц (партнеров, маркетологов, исследователей).
+                </li>
+              </ol>
+              <p>Пользователь является единственным ответственным лицом за полноту предоставляемых личных (персональных)
+                данных и обязан осуществлять своевременное их изменение (обновление, проверку, корректировку) на
+                регулярной основе. Правообладатель исходит из того, что все предоставленные Пользователем личные
+                (персональные) данные являются достоверными, и что Пользователь поддерживает такую информацию в
+                актуальном состоянии.</p>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h3 class="privacy__subtitle">Информация о совершаемых транзакциях</h3>
+            <div class="privacy__description">
+              <p>Пользователь через Сайт может осуществлять оплату за товары или услуги, посредством введения в
+                специальное поле информации о платежной карте и идентификационных данных собственника такой карты.
+                Пользователь может совершать оплату следующим способом:
+              </p>
+              <p>посредством банковской карты. с помощью платежной системы Pay Pal. с помощью платежной системы Apple
+                Pay. а также следующим способом: Spb.</p>
+              <p>Сбор и обработка данных о Пользователе в данном случае осуществляется исключительно для целей
+                проведения оплаты, недопущения мошенничества, а также соблюдения иных требований Закона. Пользователь
+                дает свое согласие на доступ и сбор Правообладателем и соответствующей платежной системой или банковским
+                учреждением, через которую/которое проводится оплата, к таким Персональным данным, а также соглашается с
+                политикой конфиденциальности соответствующей платежной системы или банковского учреждения.</p>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h2 class="privacy__title">ЦЕЛИ СБОРА И ОБРАБОТКИ ПЕРСОНАЛЬНЫХ ДАННЫХ</h2>
+            <h3 class="privacy__subtitle">Определение целей обработки</h3>
+            <div class="privacy__description">
+              <p>Сбор и обработка Персональных данных осуществляется в следующих целях:
+              </p>
+              <ol>
+                <li>для анализа поведения Пользователя, а также выявления предпочтений Пользователя к определенному виду
+                  контента.</li>
+                <li>для оперативной и корректной работы Сайта, улучшения его функциональности и и контента.</li>
+                <li>для идентификации Пользователя.</li>
+                <li>для направления персонализированных рекламных и маркетинговых материалов на указанный электронный
+                  адрес и/или мобильный телефон Пользователя.</li>
+                <li>для соблюдения требований Закона.</li>
+                <li>для отслеживания заказов, совершенных Пользователем через Сайт.</li>
+                <li>для технической поддержки Сайта, выявления проблем в его работе и их устранение.</li>
+                <li>для поддержания связи с Пользователем (коммуникация).</li>
+                <li>для выполнения иных обязательств Правообладателя, которые возникли перед Пользователем.</li>
+                <li>для проведения статистических исследований.</li>
+                <li>для любых других целей, при условии получения отдельного согласия от Пользователя.</li>
+              </ol>
+              <p>
+                Обработка Персональных данных осуществляется на основе принципов: (1) законности целей и способов
+                обработки; и (2) добросовестности; и (3) соответствия целей обработки Персональных данных целям, заранее
+                определенным и заявленным при сборе таких Персональных данных; и (4) соответствия объема и характера
+                обрабатываемых Персональных данных заявленным целям их обработки.
+              </p>
+            </div>
+            <div class="privacy__wrapper">
+              <h3 class="privacy__subtitle">Условия обработки персональных данных</h3>
+              <div class="privacy__description">
+                <p>
+                  Обработка Персональных данных проводится в случаях: (1) получения согласия от Пользователя; или (2)
+                  достижения Правообладателем целей, предусмотренных международным договором или Законом; или (3)
+                  предоставления Пользователем своих Персональных данных неограниченному кругу лицу; или (4) выполнения
+                  иных обязательств Правообладателя перед Пользователем, включая, однако не ограничиваясь,
+                  предоставление определенного контента Пользователю; или (5) спасения жизни или здоровья Пользователя,
+                  когда согласие на обработку его Персональных данных не удается получить заблаговременно.
+                  В случае обезличивания Персональных данных, что не позволяет прямо или опосредованно определить
+                  Пользователя, последующее использование и раскрытие таких данных третьим лицам допускается и в
+                  отношении их более не применяются правила данной Политики.
+                  Правообладатель принимает все возможные меры для защиты конфиденциальности полученных Персональных
+                  данных, за исключением случаев, когда Пользователь сделал такие данные общедоступными. Обработка
+                  Персональных данных осуществляется с использованием средств автоматизации и без использования таких
+                  средств автоматизации.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h2 class="privacy__title">ПОРЯДОК ЗАЩИТЫ ПЕРСОНАЛЬНЫХ ДАННЫХ</h2>
+            <div class="privacy__description">
+              <p>Защита конфиденциальности Персональных данных является первостепенной и важной задачей для
+                Правообладателя. Правообладатель придерживается всех требуемых международных стандартов, правил и
+                рекомендаций по защите Персональных данных.
+                Правообладатель внедрил ряд технических и организационных методов, направленных на защиту Персональных
+                данных от разглашения или несанкционированного доступа к ним третьих лиц.
+              </p>
+            </div>
+          </div>
+          <div class="privacy__wrapper">
+            <h2 class="privacy__title">ЗАКЛЮЧИТЕЛЬНЫЕ ПОЛОЖЕНИЯ</h2>
+            <div class="privacy__wrapper">
+              <div class="privacy__description">
+                <h3 class="privacy__subtitle">Доступность текста политики для ознакомления</h3>
+                <p>
+                  Пользователи могут ознакомиться с условиями данной Политики по следующей ссылке:
+                  https://osetrfish/ru/privacy. Данная редакция Политики действует от 7 октября 2023 годa.
+                </p>
+              </div>
+            </div>
+            <div class="privacy__wrapper">
+              <div class="privacy__description">
+                <h3 class="privacy__subtitle">Изменение и дополнение политики</h3>
+                <p>
+                  Настоящая Политика может быть изменена время от времени. Правообладатель не несет какой-либо
+                  ответственности перед Пользователем за изменение условий данной Политики без разрешения и/или согласия
+                  Пользователя. Пользователь сам обязуется на регулярной основе проверять положения данной Политики на
+                  предмет ее возможного изменения или дополнения.
+                </p>
+              </div>
+            </div>
+            <div class="privacy__wrapper">
+              <div class="privacy__description">
+                <h3 class="privacy__subtitle">Применимое законодательство</h3>
+                <p>
+                  Настоящая Политика разработана в соответствие с действующим законодательством о защите персональных
+                  данных Российской Федерации, в частности, с нормами Федерального закона от 27 июля 2006 года № 152-ФЗ
+                  "О персональных данных" (со всеми дополнениями и изменениями), Федерального закона от 21 июля 2014
+                  года № 242-ФЗ "О внесении изменений в отдельные законодательные акты Российской Федерации в части
+                  уточнения порядка обработки персональных данных в информационнотелекоммуникационных сетях" (со всеми
+                  дополнениями и изменениями).
+                </p>
+              </div>
+            </div>
+            <div class="privacy__wrapper">
+              <div class="privacy__description">
+                <h3 class="privacy__subtitle">Риск разглашения</h3>
+                <p>
+                  Вне зависимости от предпринимаемых Правообладателем мер защиты конфиденциальности получаемых
+                  персональных данных, Пользователь настоящим считается должным образом ознакомлен с тем, что любая
+                  передача Персональных данных в сети Интернет не может быть гарантировано безопасной, а потому
+                  Пользователь осуществляет такую передачу на свой собственный риск.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-delivery" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup"></a>
+        <div class="popup__delivery-container">
+          <h2 class="title popup__title">Доставка по всей россии</h2>
+          <div class="popup__delivery-inner">
+            <div class="popup__delivery-description">
+              <p> Доставка осетровой рыбы от фермы по России осуществляется различными
+                способами в зависимости от требований и пожеланий заказчика.</p>
+              <p>Основные методы доставки включают следующие:</p>
+              <ol>
+                <li>Автомобильная доставка – осетровая рыба упаковывается в специальные контейнеры, снабженные системами
+                  поддержания заданной температуры и влажности. Затем контейнеры доставляются на автомобилях,
+                  обеспечивая
+                  сохранность продукции. Этот способ позволяет доставить рыбу в любую точку России.</li>
+                <li>Железнодорожная доставка – для более удаленных регионов России используется железнодорожный
+                  транспорт.
+                  Осетровая рыба упаковывается в специальные рефрижераторные вагоны, обеспечивающие сохранность и
+                  свежесть
+                  продукта в течение всего пути. Этот способ доставки позволяет доставить рыбу на значительные
+                  расстояния.</li>
+                <li>Авиадоставка – для максимально оперативной доставки осетровой рыбы используется авиатранспорт. Рыба
+                  упаковывается в специальные контейнеры, которые обеспечивают оптимальные условия хранения и
+                  транспортировки. Авиадоставка позволяет быстро доставить осетровую рыбу по всей России, сократив время
+                  нахождения продукта в пути.</li>
+              </ol>
+              <p>Важно отметить, что при доставке осетровой рыбы от фермы по России осуществляется контроль качества и
+                соблюдение всех необходимых санитарно-гигиенических требований. Это гарантирует свежесть и безопасность
+                продукта при доставке до конечного потребителя.</p>
+            </div>
+            <img class="pay__img" src="./assets/images/delivery-block/delivery-img.png" alt="fish">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-form" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup"></a>
+        <div class="popup__form-container">
+          <h2 class="popup__form-title">Вы можете связаться с нами по:</h2>
+          <ul class="popup__form-list">
+            <li><span>номеру телефона:</span><a href="tel:+7899646942">+7899646942</a></li>
+            <li><span>телеграму:</span><a class="social__link" href="#">
+                <img class="social__img" src="./assets/images/icons/icon-telegram.svg" alt="icon telegram">
+              </a></li>
+          </ul>
+          <p class="popup__form-text">или же оставьте свой номер телефона, чтобы мы смогли связаться с вами</p>
+          <form class="popup__form">
+            <input type="tel" name="phone" id="phone" placeholder="Номер телефона">
+            <a class="btn btn-link popup-link" href="#popup-message">Отправить</a>
+          </form>
+          <p class="popup__form-text">*Отправляя данную форму вы соглашаетесь <br> <a class="popup-link"
+              href="#popup-privacy">с политикой
+              конфиденциальности</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup-message" class="popup">
+    <div class="popup__body">
+      <div class="popup__content">
+        <a href="#" class="popup__close close-popup"></a>
+        <p class="popup__message">
+          Спасибо, что оставили заявку! <br>
+          Мы свяжемся с вами в ближайшее время.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
