@@ -66,9 +66,13 @@
       <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
     </div>
   </header>
-  <main class="main">
+  <main class="main container-xl">
     <div class="bg__wrapper">
-      <img class="bg__img" src="./assets/images/backgrounds/bg-1.png" alt="bg" />
+      <picture class="bg__img-1">
+        <source media="(max-width: 425px)" srcset="./assets/images/backgrounds/bg-9.png">
+        <source media="(max-width: 1024px)" srcset="./assets/images/backgrounds/bg-5.png">
+        <img class="bg__img-size" src="./assets/images/backgrounds/bg-1.png" alt="bg">
+      </picture>
       <section class="catalog container-xl" id="catalog">
         <div class="container">
           <div class="catalog__inner">
@@ -138,203 +142,217 @@
         </div>
       </section>
     </div>
-    <section class="calls container-xl" id="calls">
-      <div class="container">
-        <h2 class="title">Отзывы</h2>
-        <div class="calls__slider swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
+    <div class="bg__wrapper">
+      <picture class="bg__img-2">
+        <source media="(max-width: 425px)" srcset="./assets/images/backgrounds/bg-10.png">
+        <source media="(max-width: 1024px)" srcset="./assets/images/backgrounds/bg-6.png">
+        <img class="bg__img-size" src="./assets/images/backgrounds/bg-2.png" alt="bg">
+      </picture>
+      <section class="calls container-xl" id="calls">
+        <div class="container">
+          <h2 class="title">Отзывы</h2>
+          <div class="calls__slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
+              </div>
+              <div class="swiper-slide">
+                <img class="call__img" src="./assets/images/calls-block/call-02.jpg" alt="call 2">
+              </div>
+              <div class="swiper-slide">
+                <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
+              </div>
             </div>
-            <div class="swiper-slide">
-              <img class="call__img" src="./assets/images/calls-block/call-02.jpg" alt="call 2">
+            <div class="about__slider-nav">
+              <div class="slider__btn-prev"></div>
+              <div class="slider__btn-next"></div>
             </div>
-            <div class="swiper-slide">
-              <img class="call__img" src="./assets/images/calls-block/call-01.jpg" alt="call 1">
-            </div>
-          </div>
-          <div class="about__slider-nav">
-            <div class="slider__btn-prev"></div>
-            <div class="slider__btn-next"></div>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="approach container-xl" id="approach">
-      <div class="container">
-        <div class="approach__inner">
-          <h2 class="title">Наш подход</h2>
-          <div class="video">
-            <iframe class="video__content" width="100%" height="100%"
-              src="https://www.youtube.com/embed/2tO93kJY00I?si=LAiT2CKBW-1HmzZo" title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="delivery container-xl" id="delivery">
-      <div class="container">
-        <h2 class="title">Доставка по всей россии</h2>
-        <div class="delivery__inner">
-          <div class="delivery__description">
-            <p class="delivery__text">
-              Доставка осетровой рыбы от фермы по России осуществляется различными способами в зависимости от
-              требований
-              и пожеланий заказчика.
-              <br><br>
-              Основные методы доставки включают следующие:
-              <br><br>
-              1. Автомобильная доставка – осетровая рыба упаковывается в специальные контейнеры, снабженные системами
-              поддержания заданной температуры и влажности. Затем контейнеры доставляются на автомобилях, обеспечивая
-              сохранность продукции. Этот способ позволяет доставить рыбу в любую точку России.
-              <br><br>
-              2. Железнодорожная доставка – для более удаленных регионов России используется железнодорожный
-              транспорт.
-              Осетровая рыба упаковывается в специальные рефрижераторные вагоны, обеспечивающие сохранность и свежесть
-              продукта в течение всего пути. Этот способ доставки позволяет доставить рыбу на значительные
-              расстояния....
-            </p>
-            <a class="btn btn-link popup-link" href="#popup-delivery">Подробнее</a>
-          </div>
-          <img class="pay__img" src="./assets/images/delivery-block/delivery-img.png" alt="fish">
-        </div>
-      </div>
-    </section>
-    <section class="stages container-xl" id="stages">
-      <div class="container">
-        <h2 class="title">Этапы работы</h2>
-        <div class="stages__list">
-          <picture>
-            <source media="(max-width: 768px)" srcset="./assets/images/backgrounds/line-2.png">
-            <img class="stages__line" src="./assets/images/backgrounds/line.png" alt="line">
-          </picture>
-          <div class="stages__item">
-            <p class="stages__number">1</p>
-            <p class="stages__text">Выбираете рыбу</p>
-          </div>
-          <div class="stages__item">
-            <p class="stages__number">2</p>
-            <p class="stages__text">Оформляете заказ</p>
-          </div>
-          <div class="stages__item">
-            <p class="stages__number">3</p>
-            <p class="stages__text">Оплачиваете за товар</p>
-          </div>
-          <div class="stages__item">
-            <p class="stages__number">4</p>
-            <p class="stages__text">Доставка <br> СДЭК <br> или Почтой <br> России</p>
-          </div>
-          <div class="stages__item">
-            <p class="stages__number">5</p>
-            <p class="stages__text">Получаете <br> свой заказ</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="advantages container-xl" id="advantages">
-      <div class="container">
-        <div class="advantages__inner">
-          <h2 class="title">Наши преимущества</h2>
-          <div class="advantages__list">
-            <div class="advantages__item">
-              <img class="advantages__item-img" src="./assets/images/icons/icon-pice.svg" alt="icon pice">
-              <p class="advantages__item-text">Натуральная и экологичная рыба</p>
-            </div>
-            <div class="advantages__item">
-              <img class="advantages__item-img" src="./assets/images/icons/icon-ribbon.svg" alt="icon ribbon">
-              <p class="advantages__item-text">Высокое <br> качество</p>
-            </div>
-            <div class="advantages__item">
-              <img class="advantages__item-img" src="./assets/images/icons/icon-fish.svg" alt="icon fish">
-              <p class="advantages__item-text">Только самая свежая продукция</p>
-            </div>
-            <div class="advantages__item">
-              <img class="advantages__item-img" src="./assets/images/icons/icon-price.svg" alt="icon price">
-              <p class="advantages__item-text">Выгодная <br> цена</p>
+      </section>
+      <section class="approach container-xl" id="approach">
+        <div class="container">
+          <div class="approach__inner">
+            <h2 class="title">Наш подход</h2>
+            <div class="video">
+              <iframe class="video__content" width="100%" height="100%"
+                src="https://www.youtube.com/embed/2tO93kJY00I?si=LAiT2CKBW-1HmzZo" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
             </div>
           </div>
-          <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
         </div>
-      </div>
-    </section>
-    <section class="pay container-xl" id="pay">
-      <div class="container">
-        <div class="pay__inner">
-          <div class="pay__wrapper">
-            <h2 class="title">Правило оплаты</h2>
-            <div class="pay__description">
-              <p class="pay__text">Основная форма оплаты за продукцию - это выплата по договору. Также мы
-                предоставляем
-                возможность платить через банковские карты или электронные кошельки. Если
-                у вас возникнут какие-либо вопросы относительно оплаты, не стесняйтесь обращаться к нам! Мы всегда
-                готовы
-                помочь.</p>
-              <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+      </section>
+      <section class="delivery container-xl" id="delivery">
+        <div class="container">
+          <h2 class="title">Доставка по всей россии</h2>
+          <div class="delivery__inner">
+            <div class="delivery__description">
+              <p class="delivery__text">
+                Доставка осетровой рыбы от фермы по России осуществляется различными способами в зависимости от
+                требований
+                и пожеланий заказчика.
+                <br><br>
+                Основные методы доставки включают следующие:
+                <br><br>
+                1. Автомобильная доставка – осетровая рыба упаковывается в специальные контейнеры, снабженные системами
+                поддержания заданной температуры и влажности. Затем контейнеры доставляются на автомобилях, обеспечивая
+                сохранность продукции. Этот способ позволяет доставить рыбу в любую точку России.
+                <br><br>
+                2. Железнодорожная доставка – для более удаленных регионов России используется железнодорожный
+                транспорт.
+                Осетровая рыба упаковывается в специальные рефрижераторные вагоны, обеспечивающие сохранность и свежесть
+                продукта в течение всего пути. Этот способ доставки позволяет доставить рыбу на значительные
+                расстояния....
+              </p>
+              <a class="btn btn-link popup-link" href="#popup-delivery">Подробнее</a>
+            </div>
+            <img class="pay__img" src="./assets/images/delivery-block/delivery-img.png" alt="fish">
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="bg__wrapper">
+      <picture class="bg__img-3">
+        <source media="(max-width: 425px)" srcset="./assets/images/backgrounds/bg-11.png">
+        <source media="(max-width: 1024px)" srcset="./assets/images/backgrounds/bg-7.png">
+        <img class="bg__img-size" src="./assets/images/backgrounds/bg-3.png" alt="bg">
+      </picture>
+      <section class="stages container-xl" id="stages">
+        <div class="container">
+          <h2 class="title">Этапы работы</h2>
+          <div class="stages__list">
+            <picture>
+              <source media="(max-width: 768px)" srcset="./assets/images/backgrounds/line-2.png">
+              <img class="stages__line" src="./assets/images/backgrounds/line.png" alt="line">
+            </picture>
+            <div class="stages__item">
+              <p class="stages__number">1</p>
+              <p class="stages__text">Выбираете рыбу</p>
+            </div>
+            <div class="stages__item">
+              <p class="stages__number">2</p>
+              <p class="stages__text">Оформляете заказ</p>
+            </div>
+            <div class="stages__item">
+              <p class="stages__number">3</p>
+              <p class="stages__text">Оплачиваете за товар</p>
+            </div>
+            <div class="stages__item">
+              <p class="stages__number">4</p>
+              <p class="stages__text">Доставка <br> СДЭК <br> или Почтой <br> России</p>
+            </div>
+            <div class="stages__item">
+              <p class="stages__number">5</p>
+              <p class="stages__text">Получаете <br> свой заказ</p>
             </div>
           </div>
-          <img class="pay__img" src="./assets/images/pay-block/pay-img.png" alt="fish">
         </div>
-      </div>
-    </section>
-    <section class="answers container-xl" id="answers">
-      <div class="container">
-        <h2 class="title">Ответы на часто <br> задаваемые вопросы</h2>
-        <div class="accordeon">
-          <div class="accordeon__li">
-            <input id="accord-1" type="checkbox" name="accord">
-            <label class="accordeon__btn" for="accord-1">
-              1. За какое время заранее надо делать заказ на нужную дату?
-            </label>
-            <div class="accordeon__toggle">
-              <div class="accordeon__toggle-inner">
-                <p class="accordeon__text">Заказы вы можете оформить на сайте, или в удобных для вас мессенджерах, на
-                  удобную вам дату, мы не держим в запасах много готовой продукции, для того что бы готовить всегда из
-                  свежей рыбы, так продукт будет всегда радовать покупателей. Обычно мы заранее принимаем заказ для
-                  того
-                  что бы рыба успела пройти определенный этап отчистки, об этом так же есть подробное видео на нашем
-                  ютуб канале. Свежую рыбу за день до отправки. Мы помещаем под проточную воду давая рыбе время для
-                  отчистки всего пищевого тракта, а только затем мы отправляем нашим покупателям, а что касается
-                  копчения то средний срок до отправки 2-3 дня до нужной вам даты. Приятных покупок!</p>
+      </section>
+      <section class="advantages container-xl" id="advantages">
+        <div class="container">
+          <div class="advantages__inner">
+            <h2 class="title">Наши преимущества</h2>
+            <div class="advantages__list">
+              <div class="advantages__item">
+                <img class="advantages__item-img" src="./assets/images/icons/icon-pice.svg" alt="icon pice">
+                <p class="advantages__item-text">Натуральная и экологичная рыба</p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__item-img" src="./assets/images/icons/icon-ribbon.svg" alt="icon ribbon">
+                <p class="advantages__item-text">Высокое <br> качество</p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__item-img" src="./assets/images/icons/icon-fish.svg" alt="icon fish">
+                <p class="advantages__item-text">Только самая свежая продукция</p>
+              </div>
+              <div class="advantages__item">
+                <img class="advantages__item-img" src="./assets/images/icons/icon-price.svg" alt="icon price">
+                <p class="advantages__item-text">Выгодная <br> цена</p>
+              </div>
+            </div>
+            <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+          </div>
+        </div>
+      </section>
+      <section class="pay container-xl" id="pay">
+        <div class="container">
+          <div class="pay__inner">
+            <div class="pay__wrapper">
+              <h2 class="title">Правило оплаты</h2>
+              <div class="pay__description">
+                <p class="pay__text">Основная форма оплаты за продукцию - это выплата по договору. Также мы
+                  предоставляем
+                  возможность платить через банковские карты или электронные кошельки. Если
+                  у вас возникнут какие-либо вопросы относительно оплаты, не стесняйтесь обращаться к нам! Мы всегда
+                  готовы
+                  помочь.</p>
+                <a class="btn btn-link popup-link" href="#popup-form">Связаться с нами</a>
+              </div>
+            </div>
+            <img class="pay__img" src="./assets/images/pay-block/pay-img.png" alt="fish">
+          </div>
+        </div>
+      </section>
+      <section class="answers container-xl" id="answers">
+        <div class="container">
+          <h2 class="title">Ответы на часто <br> задаваемые вопросы</h2>
+          <div class="accordeon">
+            <div class="accordeon__li">
+              <input id="accord-1" type="checkbox" name="accord">
+              <label class="accordeon__btn" for="accord-1">
+                1. За какое время заранее надо делать заказ на нужную дату?
+              </label>
+              <div class="accordeon__toggle">
+                <div class="accordeon__toggle-inner">
+                  <p class="accordeon__text">Заказы вы можете оформить на сайте, или в удобных для вас мессенджерах, на
+                    удобную вам дату, мы не держим в запасах много готовой продукции, для того что бы готовить всегда из
+                    свежей рыбы, так продукт будет всегда радовать покупателей. Обычно мы заранее принимаем заказ для
+                    того
+                    что бы рыба успела пройти определенный этап отчистки, об этом так же есть подробное видео на нашем
+                    ютуб канале. Свежую рыбу за день до отправки. Мы помещаем под проточную воду давая рыбе время для
+                    отчистки всего пищевого тракта, а только затем мы отправляем нашим покупателям, а что касается
+                    копчения то средний срок до отправки 2-3 дня до нужной вам даты. Приятных покупок!</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordeon__li">
+              <input id="accord-2" type="checkbox" name="accord">
+              <label class="accordeon__btn" for="accord-2">
+                2. Чем отличается рыба в бассейнах от садков?
+              </label>
+              <div class="accordeon__toggle">
+                <div class="accordeon__toggle-inner">
+                  <p class="accordeon__text">У нас на ютуб канале есть полное видео, но тут мы тоже про это обязательно
+                    упомянем. Рыба без воды не может существовать. Как человек без воздуха, и чем чище воздух тем мы
+                    чувствуем себя лучше, так же и рыба чем чище вода и обогащена кислородом тем она здоровее и вкуснее.
+                    У
+                    нас на ферме вода проходит 3 ступени отчистки, механическая отчистка, биологическая отчистка, и
+                    отчистка по средством озонирования, таким образом вода в которой растут наши осетры имеет высшую
+                    степень экологичности.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordeon__li">
+              <input id="accord-3" type="checkbox" name="accord">
+              <label class="accordeon__btn" for="accord-3">
+                3. А сколько идет доставка?
+              </label>
+              <div class="accordeon__toggle">
+                <div class="accordeon__toggle-inner">
+                  <p class="accordeon__text">Доставка в Москва южное Поволжье, 1 рабочий день, Архангельск,Екатеринбург
+                    3
+                    рабочих дня, но точную дату доставки мы можем расчитывать после получения адреса доставки, мы
+                    работаем
+                    с Авио экспресс доставками, скорость и надежность посылки мы гарантируем.</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="accordeon__li">
-            <input id="accord-2" type="checkbox" name="accord">
-            <label class="accordeon__btn" for="accord-2">
-              2. Чем отличается рыба в бассейнах от садков?
-            </label>
-            <div class="accordeon__toggle">
-              <div class="accordeon__toggle-inner">
-                <p class="accordeon__text">У нас на ютуб канале есть полное видео, но тут мы тоже про это обязательно
-                  упомянем. Рыба без воды не может существовать. Как человек без воздуха, и чем чище воздух тем мы
-                  чувствуем себя лучше, так же и рыба чем чище вода и обогащена кислородом тем она здоровее и вкуснее.
-                  У
-                  нас на ферме вода проходит 3 ступени отчистки, механическая отчистка, биологическая отчистка, и
-                  отчистка по средством озонирования, таким образом вода в которой растут наши осетры имеет высшую
-                  степень экологичности.</p>
-              </div>
-            </div>
-          </div>
-          <div class="accordeon__li">
-            <input id="accord-3" type="checkbox" name="accord">
-            <label class="accordeon__btn" for="accord-3">
-              3. А сколько идет доставка?
-            </label>
-            <div class="accordeon__toggle">
-              <div class="accordeon__toggle-inner">
-                <p class="accordeon__text">Доставка в Москва южное Поволжье, 1 рабочий день, Архангельск,Екатеринбург
-                  3
-                  рабочих дня, но точную дату доставки мы можем расчитывать после получения адреса доставки, мы
-                  работаем
-                  с Авио экспресс доставками, скорость и надежность посылки мы гарантируем.</p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
     <section class="contacts container-xl" id="contacts">
       <div class="contacts__container">
         <h2 class="title">Контакты</h2>
@@ -374,6 +392,11 @@
     </section>
   </main>
   <footer class="footer container-xl">
+    <picture class="bg__img-4">
+      <source media="(max-width: 425px)" srcset="./assets/images/backgrounds/bg-12.png">
+      <source media="(max-width: 1024px)" srcset="./assets/images/backgrounds/bg-8.png">
+      <img class="bg__img-size" src="./assets/images/backgrounds/bg-4.png" alt="bg">
+    </picture>
     <div class="footer__container">
       <div class="footer__inner">
         <div class="footer__left">
